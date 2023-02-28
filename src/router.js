@@ -6,12 +6,13 @@ export default createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/Parcial-I-programacion-II/',
+            path: '/Parcial-Progra-IV/',
             component: Home
         },
         {
-            path: '/Parcial-I-programacion-II/countries',
+            path: '/countries',
             component: Countries
         }
-    ]
+  
+]
 });
